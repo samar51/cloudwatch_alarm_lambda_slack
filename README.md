@@ -10,6 +10,7 @@
 
 # How to use
 
+- create aws configure prior for key and secret.
 - clone the repo.
 - change the bucket name in : change directory to  aws_cloudtrail and variable.tf
 - add slack inbound Webhook: change directory to python_lambda_function and change slack webhook URL in slack_message.py
