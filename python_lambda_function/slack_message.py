@@ -1,4 +1,4 @@
-import requests
+from botocore.vendored import requests
 import json
 
 def send_slack_message(message):
